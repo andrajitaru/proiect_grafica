@@ -17,7 +17,8 @@
 		  <li class="rightli" style="float:right"><a href="./About.html">About</a></li>
 		</ul>
 		<!--End Bara de Meniu -->
-		<table style="width:100%" onmouseover="colorNumberYellow()" onmouseleave="colorNumberBlack()">
+		<table style="width:100%" onmouseover="colorNumberRed()" onmouseleave="colorNumberBlack()">
+		  <tbody id="tbody">
 		  <tr><th>CO2 emissions</th><th>metric tons per capita</th></tr>
 		<tr>
 			<td>Arab World</td>
@@ -38,11 +39,11 @@
 		 <tr>
 			<td>Euro area</td>
 			<td class="co2value">7.1</td>
-		  </tr>
+		  </tr></tbody>
 		</table>
-
 		</body>
 		</html>
-
+		<br>
+        <button type="button" onclick="addRow()">Add Row</button>
 	</body>
 </html>
