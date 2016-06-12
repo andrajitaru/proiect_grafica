@@ -5,6 +5,7 @@
 		<meta name="description" content="Information on global warming">
 		<meta name="author" content="Andra Jitaru">
 		<link rel="stylesheet" type="text/css" href="./MyStyle.css">
+		<script src="./formvalidation.js"></script>
 	</head>
 	<body>
 		<!--Bara de Meniu -->
@@ -16,5 +17,26 @@
 		  <li class="rightli" style="float:right"><a href="./About.html">About</a></li>
 		</ul>
 		<!--End Bara de Meniu -->
+		<div class="body-content"><div class="anim">Join Us!</div></div> 
+		<form name="JoinUs" action="blank.php" onsubmit="return validateForm()">
+		  First name:<br>
+		  <input type="text" name="firstname" value="John">
+		  <br>
+		  Last name:<br>
+		  <input type="text" name="lastname" value="Smith">
+		  <br>
+		  E-mail:<br>
+		  <input type="email" name="e-mail">
+		  <br>
+		  Age:<br>
+		  <input type="number" name="Age" min="18">
+		  <br>
+		  Recommendation code:<br>
+		  <input type="text" name="RecCode">
+		  <br>
+		  <br><br>
+		  <input type="submit" value="Subscribe">
+		</form> 
+          <p>Join us by clicking on "Subscribe" </p>  
 	</body>
 </html>
