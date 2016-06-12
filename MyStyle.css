@@ -1,0 +1,40 @@
+ul.horizontal {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(192,192,192);
+}
+
+ul.horizontal li {
+	float: left;
+}
+
+ul.horizontal li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+	background-color: #000;
+}
+
+ul.horizontal li a.active {
+	background-color:#4CAF50;
+}
+
+td, th {
+	padding: 5px;
+}
+
+th {
+	background-color:#4CAF50;
+	color: white;
+}
+
+tr:nth-child(odd){
+	background-color: #eee;
+}
